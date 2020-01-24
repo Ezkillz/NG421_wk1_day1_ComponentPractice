@@ -5,7 +5,7 @@
     <div class="panel-body">
         <div class="list-group">
             <!-- TaskItem>    -->
-          <app-task-item *ngFor="let task of tasks"></app-task-item>
+            <app-task-item *ngFor="let task of tasks" [taskItem]="task"></app-task-item>
             <!-- /TaskItem>    -->
             
         </div>
